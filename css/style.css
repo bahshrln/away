@@ -84,91 +84,31 @@ div.puls-middle {
   }
 
   #overlayimg{
-    display: none;
-    width: 100%;
     top: 60px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 1;
-    cursor: pointer;
-    z-index: 2;
   }
 
   div.puls {
-    z-index: 3;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    background: rgb(240, 189, 147,0.7);
-    position: absolute;
     left: 40px;
     top: 160px;
-    margin: -10px 0 0 -10px;
-    -webkit-animation: pulsate 1s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    opacity: 0.0;
-  }
-
-  @-webkit-keyframes pulsate {
-    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-    50% {opacity: 2.0;}
-    100% {-webkit-transform: scale(3.2, 3.2); opacity: 0.0;}
   }
 
   div.puls-middle {
-    z-index: 3;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    position: absolute;
     left: 15px;
     top: 135px;
-    margin: 0;
-
   }
 
 @media (min-width: 450px) {
 
   div.puls {
     z-index: 1000;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    background: rgb(240, 189, 147,0.7);
-    position: absolute;
     left: 385px;
     top: 30px;
-    margin: -10px 0 0 -10px;
-    -webkit-animation: pulsate 1.5s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    opacity: 0.0;
-  }
-
-  @-webkit-keyframes pulsate {
-    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-    50% {opacity: 0.5;}
-    100% {-webkit-transform: scale(3.2, 3.2); opacity: 0.0;}
   }
 
   div.puls-middle {
     z-index: 1000;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    position: absolute;
     left: 360px;
     top: 5px;
-    margin: 0;
-
   }
 
 }
@@ -183,98 +123,27 @@ div.puls-middle {
     z-index: 3;
   }
 
-  .fas{
-    color: rgb(116, 92, 71, 0.5) !important;
-    font-size: 25px !important;
-  }
-
-  #overlayimg{
-    display: none;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 1;
-    cursor: pointer;
-    z-index: 2;
-  }
-
   div.puls {
-    z-index: 3;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    background: rgb(240, 189, 147,0.7);
-    position: absolute;
     left: 425px;
     top: 30px;
-    margin: -10px 0 0 -10px;
-    -webkit-animation: pulsate 1.5s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    opacity: 0.0;
-  }
-
-  @-webkit-keyframes pulsate {
-    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-    50% {opacity: 0.5;}
-    100% {-webkit-transform: scale(3.2, 3.2); opacity: 0.0;}
   }
 
   div.puls-middle {
-    z-index: 3;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    position: absolute;
     left: 400px;
     top: 5px;
-    margin: 0;
-
   }
 }
 
 @media (min-width: 768px) {
 
   div.puls {
-    z-index: 3;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    background: rgb(240, 189, 147,0.7);
-    position: absolute;
     left: 425px;
     top: 40px;
-    margin: -10px 0 0 -10px;
-    -webkit-animation: pulsate 1.5s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    opacity: 0.0;
-  }
-
-  @-webkit-keyframes pulsate {
-    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-    50% {opacity: 0.5;}
-    100% {-webkit-transform: scale(3.2, 3.2); opacity: 0.0;}
   }
 
   div.puls-middle {
-    z-index: 3;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    position: absolute;
     left: 400px;
     top: 15px;
-    margin: 0;
-
   }
 
 }
@@ -282,40 +151,13 @@ div.puls-middle {
 @media (min-width: 1400px) {
 
   div.puls {
-    z-index: 3;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    background: rgb(240, 189, 147,0.7);
-    position: absolute;
     left: 60px;
     top: 40px;
-    margin: -10px 0 0 -10px;
-    -webkit-animation: pulsate 1.5s ease-out;
-    -webkit-animation-iteration-count: infinite;
-    opacity: 0.0;
-  }
-
-  @-webkit-keyframes pulsate {
-    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
-    50% {opacity: 0.5;}
-    100% {-webkit-transform: scale(3.2, 3.2); opacity: 0.0;}
   }
 
   div.puls-middle {
-    z-index: 3;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    position: absolute;
     left: 35px;
     top: 15px;
-    margin: 0;
-
   }
 
 }
